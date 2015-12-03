@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;mainpackage.countingmain.main().user_input&apos; in &apos;mainpackage.countingmain.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;Counting Triangle&apos;&#x0D;&#x0A;- Original element: &apos;mainpackage.countingmain.main().user_input&apos;&#x0D;&#x0A;- Field name: &apos;user_input&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;user_input&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;mainpackage{countingmain.java" name="user_input" selection="223 35" stamp="1446714888890" static="true" version="1.0" visibility="2"/>
+</session>

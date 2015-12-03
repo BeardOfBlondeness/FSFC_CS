@@ -1,0 +1,72 @@
+package kennyOne;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class KennyMain {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					KennyMain window = new KennyMain();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public KennyMain() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(40, 130, 121, 56);
+		frame.getContentPane().add(btnNewButton);
+		
+		JButton button = new JButton("New button");
+		button.setBounds(270, 130, 121, 56);
+		frame.getContentPane().add(button);
+		
+		JLabel mainText = new JLabel("");
+		mainText.setBounds(40, 42, 351, 25);
+		frame.getContentPane().add(mainText);
+		mainText.setText("Hello, my name is kenny. If you wish to begin press the start button");
+		
+		JButton btnNewButton_1 = new JButton("Start");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				
+				//start
+								
+			}
+		});
+		btnNewButton_1.setBounds(172, 83, 89, 23);
+		frame.getContentPane().add(btnNewButton_1);
+	}
+}
