@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.66" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutY="74.0" prefHeight="326.0" prefWidth="600.0">
+         <children>
+            <VBox prefHeight="400.0" prefWidth="185.0">
+               <children>
+                  <ScrollPane prefHeight="579.0" prefWidth="150.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="637.0" prefWidth="167.0" style="-fx-background-color: #4B5577;" />
+                    </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="151.0">
+               <children>
+                  <ScrollPane prefHeight="421.0" prefWidth="150.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="630.0" prefWidth="131.0" style="-fx-background-color: #81889f;" />
+                    </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+            <VBox prefHeight="400.0" prefWidth="273.0" />
+         </children>
+      </HBox>
+      <MenuBar layoutY="2.0" prefHeight="33.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="58.0" layoutY="43.0" prefHeight="25.0" prefWidth="68.0" text="Games">
+         <font>
+            <Font name="Consolas Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="215.0" layoutY="43.0" prefHeight="25.0" prefWidth="68.0" text="Items">
+         <font>
+            <Font name="Consolas Bold" size="20.0" />
+         </font>
+      </Label>
+      <ToolBar layoutX="330.0" layoutY="35.0" prefHeight="40.0" prefWidth="270.0" style="-fx-background-color: #4B5577;">
+        <items>
+          <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #a5aabb;" text="Add Game">
+               <font>
+                  <Font name="Consolas" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="101.0" style="-fx-background-color: #a5aabb;" text="Remove Game" />
+            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="44.0" style="-fx-background-color: #a5aabb;" text="Search">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+        </items>
+      </ToolBar>
+      <Separator layoutX="168.0" layoutY="37.0" orientation="VERTICAL" prefHeight="40.0" prefWidth="15.0" />
+      <Separator layoutX="315.0" layoutY="35.0" orientation="VERTICAL" prefHeight="40.0" prefWidth="15.0" />
+   </children>
+</Pane>
